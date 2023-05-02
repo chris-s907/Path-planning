@@ -3,6 +3,8 @@ This task involves planning a path between five given key locations on a map of 
 
 ![image1](map/obs_expansion.png)
 
+## Implementation
+
 ### A* Implementation
 ![image2](route/astar/E_best_route.png)
 
@@ -11,6 +13,16 @@ This task involves planning a path between five given key locations on a map of 
 
 ### Greedy best first search
 ![image4](route/Greedy Best First Search/GBFS_best.png)
+
+## Travelling shopper 
+
+### DFS
+![image5](route/Task3/DFS_route.png)
+
+### Dynamic programming
+`Table_task3_DP` is the clarificaiton of specific steps of update.
+
+![image6](route/Task3/DP_route.png)
 
 ## Files
 `route`  all the pictures with "upper_part" means the routes right upper diagonal part in the distance table the and the "lower_part" means the routes left lower diagonal part in the distance table with the boundary of the diagonal 0.
@@ -27,4 +39,3 @@ This task involves planning a path between five given key locations on a map of 
 
 All the codes are in `homework3.ipynb` file
 
-`Table_task3_DP` is the clarificaiton of specific steps of update.
